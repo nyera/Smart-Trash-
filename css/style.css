@@ -1,0 +1,55 @@
+.form{
+    width: 50%;
+    margin: auto;
+}
+.button{
+    margin: 20px auto;
+    padding: 30px;
+    text-align: right;
+}
+.main {
+    text-align: center;
+    color:#000;
+}
+.header{
+    padding: 50px 30px;
+    margin: 91px  auto;
+}
+button .register{
+    text-decoration: none;
+    color:#fff;
+
+}
+ button .login{    
+    text-decoration: none;
+
+    color:#0d6efd;;
+}
+button .login:hover{    
+    text-decoration: none;
+
+    color:#fff;;
+}
+.img{
+    margin: 30px;
+}
+
+.user-page{
+    padding:91px;
+   background-color:#c8c6a7;
+    height:560px;
+    /*height:100%;*/
+}
+ .empty p{
+     color:#fff;
+    font-size: 30px;
+    
+}
+.location p{
+    color:#fff;
+    font-size: 30px;
+}
+  .btn-info{ 
+     color:#fff  !important;
+
+ }
