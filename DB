@@ -1,0 +1,12 @@
+Install Xampp or Wampp or any Apache server 
+Add database called "multi_login"
+Create table called 'users'
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `username` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+   `role` varchar(20) NULL,
+    `address` varchar(100) NULL,
+    `created at` date
+ 
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
